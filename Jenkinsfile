@@ -18,7 +18,7 @@ pipeline {
     }
     stage('Deploy Model') {
       steps {
-        sh 'cp iris_model.pkl /home/kashishmand/app/'
+        sh 'cp iris_model.pkl /home/kashishmand/app'
       }
     }
   }
